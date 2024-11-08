@@ -46,6 +46,6 @@ spec:
     - spotify
   providesApis:
     - petstore
- dependsOn:
+  dependsOn:
     - component:default/sunghyun96-service
- system: sunghyun96-system
+  system: sunghyun96-system
