@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: yournamehere-service-dependency
+  name: sunghyun96-service-dependency
   description: |
-    My Example service which has something to do with APIs and database.
+    My Example service which has something to do with APIs and database dependency.
   links:
     - title: Website
       url: http://harness.io
@@ -46,6 +46,6 @@ spec:
     - spotify
   providesApis:
     - petstore
-#  dependsOn:
-#    - component:default/yournamehere-service
-#  system: yournamehere-system
+ dependsOn:
+   - component:default/sunghyun96-service
+ system: sunghyun96-system
