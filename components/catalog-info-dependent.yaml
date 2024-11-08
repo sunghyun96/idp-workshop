@@ -47,5 +47,5 @@ spec:
   providesApis:
     - petstore
  dependsOn:
-   - component:default/sunghyun96-service
+    - component:default/sunghyun96-service
  system: sunghyun96-system
